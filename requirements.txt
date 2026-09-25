@@ -1,0 +1,34 @@
+# DiverScan dependencies.
+#
+# Install torch first, following the official instructions for your CUDA
+# version: https://pytorch.org/get-started/locally/
+# Then:  pip install -r requirements.txt
+
+# --- numerics and data ---
+numpy
+pandas
+scipy
+scikit-learn          # postprocessing: classification_report, PCA
+openpyxl              # make_summary_table: xlsx output
+
+# --- learning ---
+torch                 # see the note above
+optuna                # architecture search
+joblib                # saving and resuming the Optuna study
+
+# --- visualisation ---
+matplotlib
+seaborn
+plotly
+folium
+tqdm
+
+# --- notebook environment ---
+ipython
+ipywidgets
+
+# --- optional: notebook 06 (Gemini API) ---
+google-genai
+
+# plotly's static image export (write_image / to_image) is not used, so
+# kaleido is not required. Add it here if you start exporting images.

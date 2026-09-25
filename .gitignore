@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.DS_Store
+.venv/
+
+# Analyses made by the notebooks (one folder per project)
+projects/
+
+# Demo notebooks (distributed in the Google Drive folder, not here)
+worm_demo (attention visualization).ipynb
+sinewave_demo (attention visualization).ipynb
