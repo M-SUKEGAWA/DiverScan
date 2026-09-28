@@ -125,7 +125,7 @@ listing the installed packages.
 
 ## The worm demo
 
-`worm_demo (attention visualization).ipynb`, in the top folder of the Google
+`worm_demo_attention_visualization.ipynb`, in the top folder of the Google
 Drive copy (see the link at the top of this page; it is not in this
 repository), walks through the results of a finished analysis: trajectories
 of the nematode *C. elegans* under two conditions, `preexp` and `naive`, and
@@ -136,7 +136,7 @@ before running it on your own data. It reads the `worm_demo` project from
 
 ## The sine-wave demo
 
-`sinewave_demo (attention visualization).ipynb`, also in the top folder of the
+`sinewave_demo_attention_visualization.ipynb`, also in the top folder of the
 Google Drive copy and not in this repository, shows what the attention
 branches learn on a synthetic dataset: sine waves that switch between 6 and
 9 Hz, with (MixedFreq) or without (SingleFreq) short 1 Hz and 14 Hz segments.
@@ -179,3 +179,12 @@ Install PyTorch beforehand, following the instructions for your GPU at
 
 If DiverScan contributes to your work, please cite the paper describing it.
 The reference will be added here on publication.
+
+## License and patent
+
+DiverScan is released under the [PolyForm Noncommercial License 1.0.0](LICENSE).
+You may use, modify and share it for noncommercial purposes, such as research
+and teaching; commercial use requires a separate license from the authors.
+
+The method implemented here is the subject of a pending international patent
+application, PCT/JP2025/033243.

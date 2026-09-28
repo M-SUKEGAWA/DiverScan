@@ -8,5 +8,5 @@ __pycache__/
 projects/
 
 # Demo notebooks (distributed in the Google Drive folder, not here)
-worm_demo (attention visualization).ipynb
-sinewave_demo (attention visualization).ipynb
+worm_demo_attention_visualization.ipynb
+sinewave_demo_attention_visualization.ipynb
