@@ -159,6 +159,13 @@ For each of the five training seeds, the two branches of the trained model
 settle on the 1 Hz and the 14 Hz segments respectively. The notebook reads the
 `sinewave_demo` project, also in the Google Drive folder, from `projects`.
 
+Both demos also come as standalone copies,
+`worm_demo_attention_visualization_standalone.ipynb` and
+`sinewave_demo_attention_visualization_standalone.ipynb`. These do not use
+your Google Drive at all: they download the demo files into the Colab
+session's temporary disk and leave nothing behind when the session ends. Open
+one in Colab, choose "Run all", and that is it.
+
 ## Adding your own channels
 
 Any other column in your own CSV becomes a feature when you list its name in
