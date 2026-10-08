@@ -6,3 +6,9 @@ __pycache__/
 
 # Analyses made by the notebooks (one folder per project)
 projects/
+
+# Data and reference documents kept on Google Drive, not in the repository
+data/
+RAG/
+DiverScan_zenodo/
+raw/
