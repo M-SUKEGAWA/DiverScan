@@ -14,16 +14,21 @@ parts are associated with.
 Everything runs in Google Colab, in your browser. No installation is needed,
 and no programming: each notebook is a form you fill in and run.
 
-> **Ready to use on Google Drive:**
-> <https://drive.google.com/drive/folders/1yMadNZyWf8Z2qk22su8NWXUKC-c6whXN?usp=sharing>
+> **Before you run anything: put `DiverScan-release` directly under "My Drive".**
 >
-> This folder is a complete copy of DiverScan, set up and ready to run. Add it
-> to your own Google Drive (or download it and upload it as `DiverScan-release`)
-> and you can open the notebooks in Colab right away, with no further setup.
-> It also contains an example dataset, the courtship behavior of fruit flies,
-> to try the notebooks on, and the two finished demo projects (`worm_demo` and
-> `sinewave_demo`) that the demo notebooks show. The demo projects are only on
-> Google Drive, not in this repository.
+> Download the ready-to-use `DiverScan-release` folder from
+> <https://drive.google.com/drive/folders/1aW7cOEd50ctArG0MOgv-AJdWZFU-eDy5?usp=sharing>,
+> unzip it, and upload the unzipped folder to the top level of your Google
+> Drive, so that it is `My Drive/DiverScan-release`. Then open the notebooks
+> inside it in Colab; no further setup is needed. The notebooks read
+> everything from `/content/drive/MyDrive/DiverScan-release` and will not
+> find their files anywhere else.
+>
+> The folder is a complete copy of DiverScan. It also contains an example
+> dataset, the courtship behavior of fruit flies, to try the notebooks on, and
+> the two finished demo projects (`worm_demo` and `sinewave_demo`) that the
+> demo notebooks show. The demo projects are only on Google Drive, not in this
+> repository.
 
 ## What you need
 
