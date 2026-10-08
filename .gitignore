@@ -12,3 +12,6 @@ data/
 RAG/
 DiverScan_zenodo/
 raw/
+
+# Archive for Google Drive
+*.zip
