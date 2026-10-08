@@ -21,9 +21,9 @@ and no programming: each notebook is a form you fill in and run.
 > to your own Google Drive (or download it and upload it as `DiverScan-release`)
 > and you can open the notebooks in Colab right away, with no further setup.
 > It also contains an example dataset, the courtship behavior of fruit flies,
-> to try the notebooks on, and two demo notebooks with their finished projects
-> (`worm_demo` and `sinewave_demo`). The demo notebooks and projects are only
-> on Google Drive, not in this repository.
+> to try the notebooks on, and the two finished demo projects (`worm_demo` and
+> `sinewave_demo`) that the demo notebooks show. The demo projects are only on
+> Google Drive, not in this repository.
 
 ## What you need
 
@@ -125,24 +125,24 @@ listing the installed packages.
 
 ## The worm demo
 
-`worm_demo_attention_visualization.ipynb`, in the top folder of the Google
-Drive copy (see the link at the top of this page; it is not in this
-repository), walks through the results of a finished analysis: trajectories
+`worm_demo_attention_visualization.ipynb`, in the top folder, walks through
+the results of a finished analysis: trajectories
 of the nematode *C. elegans* under two conditions, `preexp` and `naive`, and
 a model with five attention branches trained to tell them apart. It shows the
 same result cells as notebook 05, so you can see what DiverScan produces
-before running it on your own data. It reads the `worm_demo` project from
-`projects` in the same Drive folder.
+before running it on your own data. It reads the `worm_demo` project, which
+is in the Google Drive folder linked at the top of this page, from
+`projects`.
 
 ## The sine-wave demo
 
-`sinewave_demo_attention_visualization.ipynb`, also in the top folder of the
-Google Drive copy and not in this repository, shows what the attention
-branches learn on a synthetic dataset: sine waves that switch between 6 and
-9 Hz, with (MixedFreq) or without (SingleFreq) short 1 Hz and 14 Hz segments.
+`sinewave_demo_attention_visualization.ipynb`, also in the top folder, shows
+what the attention branches learn on a synthetic dataset: sine waves that
+switch between 6 and 9 Hz, with (MixedFreq) or without (SingleFreq) short
+1 Hz and 14 Hz segments.
 For each of the five training seeds, the two branches of the trained model
 settle on the 1 Hz and the 14 Hz segments respectively. The notebook reads the
-`sinewave_demo` project from `projects` in the same Drive folder.
+`sinewave_demo` project, also in the Google Drive folder, from `projects`.
 
 ## Adding your own channels
 

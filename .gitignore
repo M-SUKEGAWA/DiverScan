@@ -6,7 +6,3 @@ __pycache__/
 
 # Analyses made by the notebooks (one folder per project)
 projects/
-
-# Demo notebooks (distributed in the Google Drive folder, not here)
-worm_demo_attention_visualization.ipynb
-sinewave_demo_attention_visualization.ipynb
