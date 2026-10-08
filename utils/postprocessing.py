@@ -3173,6 +3173,37 @@ def show_selected_result(
         )
 
 
+def show_selected_result_gui(
+    options,
+    default,
+    class_name_list,
+    **kwargs,
+):
+    """A "show" dropdown whose selection is displayed right away.
+
+    options are the choices of the dropdown and default the one selected
+    first; the remaining keyword arguments are passed to
+    show_selected_result(). Changing the dropdown redraws the result without
+    running the cell again.
+    """
+    dropdown = widgets.Dropdown(
+        options=list(options),
+        value=default,
+        description="show",
+        layout=widgets.Layout(width="95%"),
+    )
+    output = widgets.Output()
+
+    def update(change=None):
+        with output:
+            clear_output(wait=True)
+            show_selected_result(dropdown.value, class_name_list, **kwargs)
+
+    dropdown.observe(update, names="value")
+    display(widgets.VBox([dropdown, output]))
+    update()
+
+
 def draw_loss_curve(
     name_of_loss,
     save_filename,
