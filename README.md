@@ -141,30 +141,26 @@ listing the installed packages.
 ## The worm demo
 
 `worm_demo_attention_visualization.ipynb`, in the top folder, walks through
-the results of a finished analysis: trajectories
-of the nematode *C. elegans* under two conditions, `preexp` and `naive`, and
-a model with five attention branches trained to tell them apart. It shows the
-same result cells as notebook 05, so you can see what DiverScan produces
-before running it on your own data. It reads the `worm_demo` project, which
-is in the Google Drive folder linked at the top of this page, from
-`projects`.
+the results of a finished analysis: trajectories of the nematode
+*C. elegans* under two conditions, `preexp` and `naive`, and a model with
+five attention branches trained to tell them apart. It shows the same result
+cells as notebook 05, so you can see what DiverScan produces before running
+it on your own data.
 
 ## The sine-wave demo
 
 `sinewave_demo_attention_visualization.ipynb`, also in the top folder, shows
 what the attention branches learn on a synthetic dataset: sine waves that
 switch between 6 and 9 Hz, with (MixedFreq) or without (SingleFreq) short
-1 Hz and 14 Hz segments.
-For each of the five training seeds, the two branches of the trained model
-settle on the 1 Hz and the 14 Hz segments respectively. The notebook reads the
-`sinewave_demo` project, also in the Google Drive folder, from `projects`.
+1 Hz and 14 Hz segments. For each of the five training seeds, the two
+branches of the trained model settle on the 1 Hz and the 14 Hz segments
+respectively.
 
-Both demos also come as standalone copies,
-`worm_demo_attention_visualization_standalone.ipynb` and
-`sinewave_demo_attention_visualization_standalone.ipynb`. These do not use
-your Google Drive at all: they download the demo files into the Colab
-session's temporary disk and leave nothing behind when the session ends. Open
-one in Colab, choose "Run all", and that is it.
+Both demo notebooks run on their own and do not touch your Google Drive: they
+download the demo project they need (`worm_demo` or `sinewave_demo`, from the
+`DiverScan-release.zip` in the Google Drive folder linked at the top of this
+page) into the Colab session's temporary disk, and leave nothing behind when
+the session ends. Open one in Colab, choose "Run all", and that is it.
 
 ## Adding your own channels
 
