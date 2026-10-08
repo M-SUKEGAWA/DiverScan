@@ -14,9 +14,11 @@ parts are associated with.
 Everything runs in Google Colab, in your browser. No installation is needed,
 and no programming: each notebook is a form you fill in and run.
 
-> **Before you run anything: put `DiverScan-release` directly under "My Drive".**
+> **Before you run anything: have a Google account ready, and put
+> `DiverScan-release` directly under "My Drive".**
 >
-> Download the ready-to-use `DiverScan-release` folder from
+> You need a Google account (for Google Drive and Google Colab); sign in to it
+> first. Then download the ready-to-use `DiverScan-release` folder from
 > <https://drive.google.com/drive/folders/1aW7cOEd50ctArG0MOgv-AJdWZFU-eDy5?usp=sharing>,
 > unzip it, and upload the unzipped folder to the top level of your Google
 > Drive, so that it is `My Drive/DiverScan-release`. Then open the notebooks
@@ -73,7 +75,15 @@ that project, and find everything else from there.
 ## Running an analysis
 
 Open the notebooks from Google Drive with Google Colab (right-click a
-notebook, "Open with", "Google Colaboratory") and run them in order. In each
+notebook, "Open with", "Google Colaboratory") and run them in order.
+
+> **If Google Drive says "No preview available" when you open a notebook**,
+> Colab is not yet connected to your Google Drive. At the top of that preview,
+> open the "Open with" menu and choose "Connect more apps". In the Google
+> Workspace Marketplace that opens, search for "Colaboratory" and click
+> "Install". After that, "Google Colaboratory" appears under "Open with".
+
+In each
 one, fill in the form at the top, then choose "Run all" from the Runtime menu.
 Notebooks 02 to 04 train a model and need a GPU: in Colab, choose Runtime,
 "Change runtime type", and pick a GPU before running them.
