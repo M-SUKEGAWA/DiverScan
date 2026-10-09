@@ -27,8 +27,9 @@ tqdm
 ipython
 ipywidgets
 
-# --- optional: notebook 06 (Gemini API) ---
+# --- optional: notebook 05b (Gemini API) and the worm demo's LLM summary (Anthropic API) ---
 google-genai
+anthropic
 
 # plotly's static image export (write_image / to_image) is not used, so
 # kaleido is not required. Add it here if you start exporting images.

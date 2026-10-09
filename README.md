@@ -145,7 +145,10 @@ the results of a finished analysis: trajectories of the nematode
 *C. elegans* under two conditions, `preexp` and `naive`, and a model with
 five attention branches trained to tell them apart. It shows the same result
 cells as notebook 05, so you can see what DiverScan produces before running
-it on your own data.
+it on your own data. Its last cell, "LLM summary", turns the correlation and
+distribution tables into a written interpretation of each attention branch:
+with an Anthropic API key it asks Claude, and without one it shows a report
+prepared ahead of time, so no key is needed to see the demo.
 
 ## The sine-wave demo
 
